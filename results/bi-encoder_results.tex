@@ -1,0 +1,17 @@
+\begin{table}[!ht]
+\caption{Performances des modèles pour l'approche bi-encodeur}
+\label{tab:outcome-sim-bi-encoder-results}
+\begin{tabular}{lllll}
+\toprule
+\textbf{model} & \textbf{accuracy} & \textbf{f1} & \textbf{precision} & \textbf{recall} \\
+\midrule
+BiomedNLP-PubMedBERT-base-uncased-abstract & $81.65_{\pm0.45}$ & $56.96_{\pm1.67}$ & $58.23_{\pm5.08}$ & $56.39_{\pm4.36}$ \\
+bert-base-uncased & $81.25_{\pm0.82}$ & $52.71_{\pm3.97}$ & $53.30_{\pm7.42}$ & $53.89_{\pm8.07}$ \\
+BioLinkBERT-base & $80.92_{\pm0.64}$ & $51.05_{\pm4.58}$ & $46.62_{\pm5.55}$ & $58.06_{\pm9.23}$ \\
+biobert-base-cased-v1.2 & $80.73_{\pm0.34}$ & $53.45_{\pm0.81}$ & $48.37_{\pm3.86}$ & $60.56_{\pm5.02}$ \\
+BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext & $80.66_{\pm0.65}$ & $49.41_{\pm5.93}$ & $37.94_{\pm7.40}$ & $76.67_{\pm13.22}$ \\
+scibert-scivocab-uncased & $80.53_{\pm0.42}$ & $53.18_{\pm3.58}$ & $46.42_{\pm9.05}$ & $66.67_{\pm10.21}$ \\
+all-mpnet-base-v2 & $79.87_{\pm0.30}$ & $42.31_{\pm1.38}$ & $30.10_{\pm4.12}$ & $75.83_{\pm11.27}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

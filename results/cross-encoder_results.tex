@@ -1,0 +1,17 @@
+\begin{table}[!ht]
+\caption{Performances des modèles pour l'approche cross-encodeur}
+\label{tab:outcome-sim-cross-encoder-results}
+\begin{tabular}{lllll}
+\toprule
+\textbf{model} & \textbf{Accuracy} & \textbf{F1} & \textbf{Precision} & \textbf{Recall} \\
+\midrule
+BiomedNLP-PubMedBERT-base-uncased-abstract & $95.58_{\pm0.26}$ & $91.07_{\pm0.55}$ & $87.59_{\pm2.25}$ & $95.00_{\pm2.99}$ \\
+BioLinkBERT-base & $94.92_{\pm0.40}$ & $89.25_{\pm0.92}$ & $89.70_{\pm1.73}$ & $88.89_{\pm2.48}$ \\
+scibert-scivocab-uncased & $94.19_{\pm0.34}$ & $88.06_{\pm0.65}$ & $85.28_{\pm2.13}$ & $91.11_{\pm1.88}$ \\
+BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext & $93.99_{\pm0.82}$ & $87.21_{\pm1.46}$ & $86.45_{\pm6.04}$ & $88.61_{\pm4.60}$ \\
+biobert-base-cased-v1.2 & $91.75_{\pm0.47}$ & $83.77_{\pm0.83}$ & $78.85_{\pm2.94}$ & $89.72_{\pm4.61}$ \\
+bert-base-uncased & $91.68_{\pm1.05}$ & $82.39_{\pm1.82}$ & $81.66_{\pm7.12}$ & $84.17_{\pm6.00}$ \\
+all-mpnet-base-v2 & $91.55_{\pm0.82}$ & $82.96_{\pm1.14}$ & $80.16_{\pm4.53}$ & $86.39_{\pm3.87}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

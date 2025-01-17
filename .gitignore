@@ -1,0 +1,4 @@
+data/
+slurm/
+results/*/
+fine-tuning/configs/*/
