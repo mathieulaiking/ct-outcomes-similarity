@@ -1,4 +1,5 @@
 data/
 slurm/
 results/*/
-fine-tuning/configs/*/
+fine-tuning/*/
+**/__pycache__
